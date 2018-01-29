@@ -12,9 +12,9 @@ import Help from './components/layout/Help';
 import FAQ from './components/layout/FAQ';
 import Contact from './components/layout/Contact';
 import Footer from './components/layout/Footer';
-import OfferList from './components/member/OfferList';
+import OfferMain from './components/member/OfferMain';
 import OfferForm from './components/member/OfferForm';
-import PurchaseList from './components/member/PurchaseList';
+import PurchaseMain from './components/member/PurchaseMain';
 import ProfileForm from './components/member/ProfileForm';
 import MainAdmin from './components/layout/MainAdmin';
 import MemberList from './components/admin/MemberList';
@@ -50,8 +50,8 @@ class App extends Component {
               <Route exact path="/setting" component={SettingForm} />
 
               <Route exact path="/" component={Main} />
-              <Route exact path="/offers" component={OfferList} />
-              <Route exact path="/purchases" component={PurchaseList} />
+              <Route exact path="/offers" component={OfferMain} />
+              <Route exact path="/purchases" component={PurchaseMain} />
               <Route exact path="/profile" component={ProfileForm} />
 
               <Route exact path="/help" component={Help} />

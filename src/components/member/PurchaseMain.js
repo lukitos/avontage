@@ -1,18 +1,15 @@
 import React from 'react';
-import OfferList from '../member/OfferList';
-import PurchaseList from '../member/PurchaseList';
 import MemberHeadline from '../admin/MemberHeadline';
+import PurchaseList from './PurchaseList';
 
-const Main = (props) => {
+const PurchaseMain = (props) => {
   return (
     <div className="container">
       <MemberHeadline />
-      <br />
-      <OfferList />
       <br />
       <PurchaseList />
     </div>
   );
 }
 
-export default Main;
+export default PurchaseMain;

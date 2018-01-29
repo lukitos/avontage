@@ -11,7 +11,11 @@ const Member = (props) => {
       <td>TBD</td>
       <td>TBD</td>
       <td>
-        <a className="btn btn-outline-info" aria-label="Delete">
+        <a className="btn btn-outline-warning" aria-label="Edit">
+          <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+        </a>
+        &nbsp;
+        <a className="btn btn-outline-info" aria-label="Offers">
           <i className="fa fa-pencil" aria-hidden="true"></i>
         </a>
         &nbsp;

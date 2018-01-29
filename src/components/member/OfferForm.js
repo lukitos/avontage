@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { Link } from 'react-router-dom';
-
-// const  { DOM: { input, select, textarea } } = React
+import MemberHeadline from '../admin/MemberHeadline';
 
 const required = value => (value ? undefined : "This field is required");
 
@@ -39,6 +38,7 @@ class OfferForm extends Component {
   render() {
     return (
       <div className="container">
+        <MemberHeadline /><br />
         <div className="alert alert-secondary" role="alert">
           <b>Offer Information</b>
         </div>

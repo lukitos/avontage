@@ -11,9 +11,6 @@ const AppNav = (props) => {
         <Link to="/members" className="nav-link">Members</Link>
       </li>
       <li className="nav-item">
-        <Link to="/offers" className="nav-link">Offers</Link>
-      </li>
-      <li className="nav-item">
         <Link to="/categories" className="nav-link">Categories</Link>
       </li>
       <li className="nav-item">
